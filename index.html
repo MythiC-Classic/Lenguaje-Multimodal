@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Entre páginas y palabras</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================
+         PORTADA
+    ========================== -->
+
+    <header class="portada">
+
+        <div class="fondo-portada"></div>
+
+        <div class="portada-contenido">
+
+            <p class="pequeno">SEMANA DEL LIBRO</p>
+
+            <h1>
+                Entre páginas<br>
+                y palabras
+            </h1>
+
+            <div class="linea"></div>
+
+            <p class="subtitulo">
+                Un espacio dedicado a la lectura,
+                la literatura y la imaginación.
+            </p>
+
+            <p class="fecha">
+                22 — 29 DE SEPTIEMBRE
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         CONTENIDO PRINCIPAL
+    ========================== -->
+
+    <main>
+
+
+        <!-- INTRODUCCIÓN -->
+
+        <section class="bienvenida">
+
+            <div class="imagen-introduccion">
+
+                <img
+                    src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=1000&q=85"
+                    alt="Libros">
+
+            </div>
+
+
+            <div class="texto-introduccion">
+
+                <span class="etiqueta">
+                    BIENVENIDA
+                </span>
+
+                <h2>
+                    Un libro puede abrir un mundo
+                </h2>
+
+                <p>
+                    Los libros son mucho más que páginas llenas
+                    de palabras. En ellos podemos encontrar
+                    historias, conocimientos, emociones y
+                    diferentes maneras de comprender el mundo.
+                </p>
+
+                <p>
+                    Durante la Semana del Libro celebramos la
+                    importancia de la lectura y recordamos que
+                    cada libro puede llevarnos a un lugar
+                    diferente sin necesidad de movernos.
+                </p>
+
+                <div class="ejemplo-intro">
+
+                    <strong>Ejemplo:</strong>
+
+                    <span>
+                        Al leer una novela de aventuras podemos
+                        imaginar lugares, personajes y situaciones
+                        que nunca hemos experimentado.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SECCIONES
+        ========================== -->
+
+        <section class="secciones">
+
+            <p class="etiqueta centrado">
+                EXPLORA EL BLOG
+            </p>
+
+            <h2 class="titulo-secciones">
+                Diferentes formas de disfrutar la lectura
+            </h2>
+
+            <div class="decoracion"></div>
+
+
+            <div class="tarjetas">
+
+
+                <!-- ARTÍCULO -->
+
+                <article
+                    class="tarjeta"
+                    onclick="mostrar('articulo')">
+
+                    <div class="numero">
+                        01
+                    </div>
+
+                    <h3>
+                        Artículo
+                    </h3>
+
+                    <p>
+                        La importancia de leer
+                    </p>
+
+                    <button>
+                        Leer artículo
+                    </button>
+
+                </article>
+
+
+
+                <!-- POEMA -->
+
+                <article
+                    class="tarjeta"
+                    onclick="mostrar('poema')">
+
+                    <div class="numero">
+                        02
+                    </div>
+
+                    <h3>
+                        Poema
+                    </h3>
+
+                    <p>
+                        Entre páginas
+                    </p>
+
+                    <button>
+                        Leer poema
+                    </button>
+
+                </article>
+
+
+
+                <!-- CUENTO -->
+
+                <article
+                    class="tarjeta"
+                    onclick="mostrar('cuento')">
+
+                    <div class="numero">
+                        03
+                    </div>
+
+                    <h3>
+                        Cuento
+                    </h3>
+
+                    <p>
+                        El libro olvidado
+                    </p>
+
+                    <button>
+                        Leer cuento
+                    </button>
+
+                </article>
+
+
+
+                <!-- ENSAYO -->
+
+                <article
+                    class="tarjeta"
+                    onclick="mostrar('ensayo')">
+
+                    <div class="numero">
+                        04
+                    </div>
+
+                    <h3>
+                        Ensayo
+                    </h3>
+
+                    <p>
+                        El valor de los libros
+                    </p>
+
+                    <button>
+                        Leer ensayo
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ARTÍCULO
+        ========================== -->
+
+        <section
+            id="articulo"
+            class="contenido">
+
+            <button
+                class="cerrar"
+                onclick="cerrarTodo()">
+                ×
+            </button>
+
+
+            <div class="contenido-cabecera">
+
+                <span>
+                    ARTÍCULO
+                </span>
+
+                <h2>
+                    La importancia de leer
+                </h2>
+
+                <div class="linea-pequena"></div>
+
+            </div>
+
+
+            <p>
+                Leer es una actividad que nos permite conocer
+                nuevas ideas, lugares y personas. A través de
+                un libro podemos aprender sobre historia,
+                ciencia, cultura o simplemente disfrutar de
+                una buena historia.
+            </p>
+
+
+            <p>
+                La lectura también ayuda a mejorar nuestro
+                vocabulario, comprensión y capacidad para
+                expresar nuestras ideas. Además, puede
+                convertirse en un momento de tranquilidad
+                y reflexión.
+            </p>
+
+
+            <p>
+                Por estas razones, la Semana del Libro no
+                solamente celebra los libros que ya existen,
+                sino que también busca motivar a más personas
+                a descubrir el gusto por la lectura.
+            </p>
+
+
+            <div class="ejemplo">
+
+                <span>
+                    EJEMPLO
+                </span>
+
+                <h3>
+                    Leer para aprender
+                </h3>
+
+                <p>
+                    Un estudiante que lee un libro sobre
+                    astronomía puede aprender sobre planetas,
+                    estrellas y galaxias mientras desarrolla
+                    su capacidad para comprender información
+                    científica.
+                </p>
+
+            </div>
+
+
+            <blockquote>
+                Leer también es una forma de viajar sin
+                abandonar nuestro lugar.
+            </blockquote>
+
+        </section>
+
+
+
+        <!-- =========================
+             POEMA
+        ========================== -->
+
+        <section
+            id="poema"
+            class="contenido poema-contenido">
+
+            <button
+                class="cerrar"
+                onclick="cerrarTodo()">
+                ×
+            </button>
+
+
+            <div class="contenido-cabecera">
+
+                <span>
+                    POEMA
+                </span>
+
+                <h2>
+                    Entre páginas
+                </h2>
+
+                <div class="linea-pequena"></div>
+
+            </div>
+
+
+            <div class="poema">
+
+                <p>
+                    Entre páginas encuentro<br>
+                    un mundo para explorar,<br>
+                    historias que lentamente<br>
+                    me enseñan a imaginar.
+                </p>
+
+
+                <p>
+                    Una palabra abre una puerta,<br>
+                    una historia puede cambiar,<br>
+                    y entre letras escondidas<br>
+                    hay lugares por encontrar.
+                </p>
+
+
+                <p>
+                    Un libro nunca está vacío,<br>
+                    aunque parezca descansar,<br>
+                    porque guarda entre sus páginas<br>
+                    mil historias por contar.
+                </p>
+
+            </div>
+
+
+            <div class="ejemplo">
+
+                <span>
+                    EJEMPLO
+                </span>
+
+                <h3>
+                    ¿Dónde encontramos poesía?
+                </h3>
+
+                <p>
+                    La poesía puede aparecer en libros,
+                    revistas, canciones o incluso en
+                    publicaciones digitales. Puede expresar
+                    sentimientos como alegría, nostalgia,
+                    esperanza o amor.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CUENTO
+        ========================== -->
+
+        <section
+            id="cuento"
+            class="contenido">
+
+            <button
+                class="cerrar"
+                onclick="cerrarTodo()">
+                ×
+            </button>
+
+
+            <div class="contenido-cabecera">
+
+                <span>
+                    CUENTO
+                </span>
+
+                <h2>
+                    El libro olvidado
+                </h2>
+
+                <div class="linea-pequena"></div>
+
+            </div>
+
+
+            <p>
+                En una pequeña biblioteca había un libro que
+                llevaba mucho tiempo sin ser abierto. Se
+                encontraba en una esquina, cubierto de polvo,
+                mientras otros libros eran llevados
+                constantemente por los estudiantes.
+            </p>
+
+
+            <p>
+                Un día, una joven entró buscando algo para
+                leer. Después de observar los estantes,
+                encontró aquel libro olvidado.
+            </p>
+
+
+            <p>
+                —Creo que nadie lo ha leído en mucho tiempo —
+                dijo mientras lo abría.
+            </p>
+
+
+            <p>
+                Al comenzar la lectura, descubrió una historia
+                llena de aventuras, personajes y lugares
+                desconocidos.
+            </p>
+
+
+            <p>
+                Cuando terminó, sonrió y pensó:
+            </p>
+
+
+            <blockquote>
+                ¿Cómo pudo estar tanto tiempo escondida una
+                historia tan interesante?
+            </blockquote>
+
+
+            <p>
+                Desde ese día, comenzó a recomendar aquel libro
+                a sus compañeros. Poco a poco, el libro dejó de
+                estar olvidado.
+            </p>
+
+
+            <p>
+                Y la joven comprendió algo importante:
+            </p>
+
+
+            <blockquote>
+                A veces una gran historia solamente necesita
+                que alguien decida abrir su primera página.
+            </blockquote>
+
+
+            <div class="ejemplo">
+
+                <span>
+                    EJEMPLO
+                </span>
+
+                <h3>
+                    Elementos de un cuento
+                </h3>
+
+                <p>
+                    En este cuento podemos identificar un
+                    personaje principal, un lugar donde ocurre
+                    la historia, un problema y un desenlace.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ENSAYO
+        ========================== -->
+
+        <section
+            id="ensayo"
+            class="contenido">
+
+            <button
+                class="cerrar"
+                onclick="cerrarTodo()">
+                ×
+            </button>
+
+
+            <div class="contenido-cabecera">
+
+                <span>
+                    ENSAYO
+                </span>
+
+                <h2>
+                    El valor de los libros
+                    en nuestra vida
+                </h2>
+
+                <div class="linea-pequena"></div>
+
+            </div>
+
+
+            <p>
+                Los libros han acompañado a la humanidad durante
+                siglos y continúan siendo una importante fuente
+                de conocimiento y cultura.
+            </p>
+
+
+            <p>
+                Aunque actualmente existen muchas formas
+                digitales de obtener información, los libros
+                siguen teniendo un papel importante en la
+                educación y en el desarrollo personal.
+            </p>
+
+
+            <p>
+                Leer nos permite conocer pensamientos diferentes
+                a los nuestros y comprender otras épocas,
+                culturas y formas de ver la vida.
+            </p>
+
+
+            <p>
+                También desarrolla nuestra imaginación y nos
+                ayuda a mejorar nuestra capacidad para
+                comunicarnos.
+            </p>
+
+
+            <p>
+                Por eso considero que los libros no deberían
+                verse solamente como una obligación escolar.
+                También pueden ser una forma de descubrir nuevos
+                intereses, aprender y disfrutar.
+            </p>
+
+
+            <p>
+                La Semana del Libro representa una oportunidad
+                para recordar ese valor y motivarnos a leer más.
+                Cada libro contiene una historia o conocimiento
+                esperando ser descubierto.
+            </p>
+
+
+            <div class="ejemplo">
+
+                <span>
+                    EJEMPLO
+                </span>
+
+                <h3>
+                    El libro como herramienta educativa
+                </h3>
+
+                <p>
+                    Un estudiante puede utilizar un libro de
+                    historia para conocer acontecimientos del
+                    pasado, consultar una novela para analizar
+                    personajes o utilizar un libro científico
+                    para comprender un fenómeno natural.
+                </p>
+
+            </div>
+
+
+            <blockquote>
+                Comenzar a leer puede ser tan sencillo como
+                abrir una primera página.
+            </blockquote>
+
+        </section>
+
+
+
+        <!-- =========================
+             CIERRE
+        ========================== -->
+
+        <section class="final">
+
+            <p class="etiqueta">
+                PARA TERMINAR
+            </p>
+
+            <h2>
+                Cada libro es una puerta<br>
+                hacia un nuevo mundo.
+            </h2>
+
+            <div class="decoracion"></div>
+
+            <p class="mensaje-final">
+                Leer es descubrir, imaginar y aprender.
+            </p>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <h3>
+            Entre páginas y palabras
+        </h3>
+
+        <p>
+            Semana del Libro
+        </p>
+
+        <p class="copyright">
+            Literatura · Lectura · Imaginación
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
